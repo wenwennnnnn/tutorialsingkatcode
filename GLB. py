@@ -8,14 +8,14 @@ Hi, saya adalah FisPy, akan membantumu mengerjakan soal GLB. Silakan pilih salah
 [3] menghitung waktu
 [4] keluar
         '''
-        return menu
-    def menghitung_kecepatan(self, jarak, waktu):
+    return menu
+def menghitung_kecepatan(self, jarak, waktu):
         hasil = int(jarak)/int(waktu)
         return hasil
-    def menghitung_jarak(self, kecepatan, waktu):
+def menghitung_jarak(self, kecepatan, waktu):
         hasil = int(kecepatan)*int(waktu)
         return hasil
-    def menghitung_waktu(self, kecepatan, jarak):
+def menghitung_waktu(self, kecepatan, jarak):
         hasil = int(jarak)/int(kecepatan)
         return hasil
  
